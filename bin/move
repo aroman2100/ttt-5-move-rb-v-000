@@ -4,8 +4,8 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 board= Array.new(9," ")
-prints "Welcome to Tic Tac Toe!"
-prints "Please make your first move by choosing 1-9 where 1 is the top left of the Board"
+print "Welcome to Tic Tac Toe!"
+print "Please make your first move by choosing 1-9 where 1 is the top left of the Board"
 input = gets.strip
 index= input_to_index(input)
 move(board,index,choice)
